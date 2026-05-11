@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="MiniTabs\AddBudgetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MiniTabs\AddContributionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MiniTabs\AddDebtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MiniTabs\AddGoalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MiniTabs\AddRecurringForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MiniTabs\AddTransactionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tabs\usAnalyticsTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Tabs\usBudgetsGoalsTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Tabs\usDebts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MiniTabs\LogPaymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SupportClasses\ModernProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="MiniTabs\OverspendingBudgetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tabs\MainTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tabs\usSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Tabs\usLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Tabs\usDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Tabs\usProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MiniTabs\usRecurringRow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Tabs\usRecurring_Payment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Tabs\usSignin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Tabs\usTransaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MiniTabs\usTransactionRow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,269 @@
+﻿namespace AOOP_PROJECTT
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            LeftSidePanel = new Panel();
+            button9 = new Button();
+            button8 = new Button();
+            button7 = new Button();
+            button6 = new Button();
+            button5 = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            dashboard = new Button();
+            panel6 = new Panel();
+            label2 = new Label();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            rightsidepanel = new Panel();
+            LeftSidePanel.SuspendLayout();
+            panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
+            // 
+            // LeftSidePanel
+            // 
+            LeftSidePanel.BackColor = Color.FromArgb(19, 22, 31);
+            LeftSidePanel.Controls.Add(button9);
+            LeftSidePanel.Controls.Add(button8);
+            LeftSidePanel.Controls.Add(button7);
+            LeftSidePanel.Controls.Add(button6);
+            LeftSidePanel.Controls.Add(button5);
+            LeftSidePanel.Controls.Add(button4);
+            LeftSidePanel.Controls.Add(button3);
+            LeftSidePanel.Controls.Add(dashboard);
+            LeftSidePanel.Controls.Add(panel6);
+            LeftSidePanel.ForeColor = SystemColors.ControlLightLight;
+            LeftSidePanel.Location = new Point(0, 0);
+            LeftSidePanel.Name = "LeftSidePanel";
+            LeftSidePanel.Size = new Size(183, 654);
+            LeftSidePanel.TabIndex = 0;
+            LeftSidePanel.Paint += LeftSidePanel_Paint;
+            // 
+            // button9
+            // 
+            button9.FlatAppearance.BorderSize = 0;
+            button9.FlatStyle = FlatStyle.Flat;
+            button9.Font = new Font("Segoe UI", 12F);
+            button9.ForeColor = Color.White;
+            button9.Location = new Point(-1, 608);
+            button9.Name = "button9";
+            button9.Size = new Size(183, 45);
+            button9.TabIndex = 13;
+            button9.Text = "Settings";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // button8
+            // 
+            button8.FlatAppearance.BorderSize = 0;
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.Font = new Font("Segoe UI", 12F);
+            button8.ForeColor = Color.White;
+            button8.Location = new Point(-1, 361);
+            button8.Name = "button8";
+            button8.Size = new Size(183, 45);
+            button8.TabIndex = 12;
+            button8.Text = "Profile";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button7
+            // 
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.Font = new Font("Segoe UI", 12F);
+            button7.ForeColor = Color.White;
+            button7.Location = new Point(-1, 314);
+            button7.Name = "button7";
+            button7.Size = new Size(183, 45);
+            button7.TabIndex = 11;
+            button7.Text = "Recurring Payment";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
+            // button6
+            // 
+            button6.FlatAppearance.BorderSize = 0;
+            button6.FlatStyle = FlatStyle.Flat;
+            button6.Font = new Font("Segoe UI", 12F);
+            button6.ForeColor = Color.White;
+            button6.Location = new Point(-1, 266);
+            button6.Name = "button6";
+            button6.Size = new Size(183, 45);
+            button6.TabIndex = 10;
+            button6.Text = "Debts";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // button5
+            // 
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Segoe UI", 12F);
+            button5.ForeColor = Color.White;
+            button5.Location = new Point(-1, 217);
+            button5.Name = "button5";
+            button5.Size = new Size(183, 45);
+            button5.TabIndex = 9;
+            button5.Text = "Budget and Goals";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // button4
+            // 
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Segoe UI", 12F);
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(-1, 169);
+            button4.Name = "button4";
+            button4.Size = new Size(183, 45);
+            button4.TabIndex = 8;
+            button4.Text = "Analytics";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button3
+            // 
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI", 12F);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(-2, 121);
+            button3.Name = "button3";
+            button3.Size = new Size(183, 45);
+            button3.TabIndex = 7;
+            button3.Text = "Transaction";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // dashboard
+            // 
+            dashboard.FlatAppearance.BorderSize = 0;
+            dashboard.FlatStyle = FlatStyle.Flat;
+            dashboard.Font = new Font("Segoe UI", 12F);
+            dashboard.ForeColor = Color.White;
+            dashboard.Location = new Point(-1, 74);
+            dashboard.Name = "dashboard";
+            dashboard.Size = new Size(183, 45);
+            dashboard.TabIndex = 6;
+            dashboard.Text = "Dashboard";
+            dashboard.UseVisualStyleBackColor = true;
+            dashboard.Click += button2_Click;
+            // 
+            // panel6
+            // 
+            panel6.BackColor = Color.Transparent;
+            panel6.BackgroundImageLayout = ImageLayout.None;
+            panel6.Controls.Add(label2);
+            panel6.Controls.Add(label1);
+            panel6.Controls.Add(pictureBox1);
+            panel6.Location = new Point(-1, 3);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(183, 70);
+            panel6.TabIndex = 5;
+            panel6.Paint += panel6_Paint;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 8F);
+            label2.ForeColor = Color.FromArgb(130, 145, 170);
+            label2.Location = new Point(76, 40);
+            label2.Name = "label2";
+            label2.Size = new Size(48, 13);
+            label2.TabIndex = 14;
+            label2.Text = "Personal";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 13F);
+            label1.Location = new Point(75, 18);
+            label1.Name = "label1";
+            label1.Size = new Size(62, 22);
+            label1.TabIndex = 0;
+            label1.Text = "Name ";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(14, 10);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(55, 53);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // rightsidepanel
+            // 
+            rightsidepanel.BackColor = Color.FromArgb(15, 17, 23);
+            rightsidepanel.ForeColor = Color.Crimson;
+            rightsidepanel.Location = new Point(183, 0);
+            rightsidepanel.Name = "rightsidepanel";
+            rightsidepanel.Size = new Size(966, 653);
+            rightsidepanel.TabIndex = 1;
+            rightsidepanel.Paint += rightsidepanel_Paint;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1148, 651);
+            Controls.Add(rightsidepanel);
+            Controls.Add(LeftSidePanel);
+            Name = "Form1";
+            Text = "`";
+            Load += Form1_Load;
+            LeftSidePanel.ResumeLayout(false);
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+        private Panel LeftSidePanel;
+        private PictureBox pictureBox1;
+        private Panel panel6;
+        private Button dashboard;
+        private Button button3;
+        private Button button6;
+        private Button button5;
+        private Button button4;
+        private Button button9;
+        private Button button8;
+        private Button button7;
+        private Panel rightsidepanel;
+        private Label label1;
+        private Label label2;
+    }
+}
