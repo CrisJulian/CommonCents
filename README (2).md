@@ -258,22 +258,30 @@ Before running the project, make sure you have:
     <th> &nbsp; </th>
     <th> Name </th>
     <th> Role </th>
+    <th> Github Link </th>
 </tr>
 <tr>
     <td>👤</td>
     <td><strong>Christian Paolo M. Buenavista</strong></td>
     <td>Data Manager & UI/UX Developer</td>
-</tr>
-<tr>
-    <td>👤</td>
-    <td><strong>Karl Andrei C. Talagtag</strong></td>
-    <td>Main UI/UX Developer</td>
+    <td>https://github.com/ahmya19</td>
+
 </tr>
 <tr>
     <td>👤</td>
     <td><strong>Cris Julian V. Manalo</strong></td>
     <td>Project Leader - Database Manager & UI/UX Developer</td>
+    <td>https://github.com/CrisJulian
+    </td>
 </tr>
+<tr>
+    <td>👤</td>
+    <td><strong>Karl Andrei C. Talagtag</strong></td>
+    <td>Main UI/UX Developer & Debugger</td>
+    <td>https://github.com/DreiwanabeTexh</td>
+
+</tr>
+
 </table>
 
 ---
