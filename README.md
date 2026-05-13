@@ -98,7 +98,7 @@ The application uses **runtime polymorphism** through events and delegates:
 ## 𝄜 UML Diagram
 
 <p align="center">
-  <img src="Image/WholePicture.png" width="5000">
+  <img src="UML DIAGRAM/UML DIAGRAM.png" width="5000">
 </p>
 
 ## 📁 Project Structure
