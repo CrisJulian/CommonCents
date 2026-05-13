@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Image/CommonCents.png" width="200">
+  <img src="Images/Commoncents.png" width="200">
 </p>
 
 <h1 align="center"> 💰 CommonCents 💰 </h1>
@@ -98,7 +98,7 @@ The application uses **runtime polymorphism** through events and delegates:
 ## 𝄜 UML Diagram
 
 <p align="center">
-  <img src="UMLDiagram/UMLDiagram.png" width="5000">
+  <img src="Images/UMLDiagram.png" width="5000">
 </p>
 
 ## 📁 Project Structure
